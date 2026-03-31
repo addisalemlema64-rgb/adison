@@ -1,1 +1,205 @@
-# adison
+
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ዞሳር Pictre - ቢሾፍቱ</title>
+	<meta name="description" content="Zosar Pictre - ጥራት ያላቸው የሰርግ እና የመስክ ፎቶና ቪዲዮ አገልግሎቶች በቢሾፍቱ።">
+<meta name="keywords" content="Photography, Bishoftu, Wedding Photography, Zosar Pictre, ፎቶግራፍ, ቢሾፍቱ,Bishoftu photographer,photographer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://i.postimg.cc/vmcRXY2K/photo-5873070239585602546-y.jpg');
+            background-size: cover; background-position: center;
+        }
+        .gallery-item img { transition: transform 0.5s ease; }
+        .gallery-item:hover img { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans scroll-smooth">
+
+    <nav class="p-6 flex justify-between items-center border-b border-gray-800 sticky top-0 bg-gray-900 z-50">
+        <h1 class="text-2xl font-bold tracking-tighter">ዞሳር <span class="text-yellow-500">pictre</span></h1>
+        <div class="space-x-4 md:space-x-6">
+            <a href="#work" class="hover:text-yellow-500 transition">ስራዎች</a>
+            <a href="#packages" class="hover:text-yellow-500 transition">ፓኬጆች</a>
+            <a href="#contact" class="bg-yellow-500 text-black px-4 py-2 rounded-full font-bold text-sm">ያግኙኝ</a>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-[50vh] flex flex-col justify-center items-center text-center px-4">
+        <h2 class="text-4xl md:text-6xl font-extrabold mb-4 uppercase">ትውስታዎችን በጥበብ</h2>
+        <p class="text-lg text-gray-300">ጥራት ያላቸው የሰርግ እና የመስክ ፎቶና ቪዲዮ አገልግሎቶች በቢሾፍቱ</p>
+    </section>
+
+    <section id="work" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-widest">የስራ ማህደር</h2>
+        <div class="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+            <div class="gallery-item relative rounded-xl overflow-hidden shadow-xl bg-gray-800">
+                <a href="https://i.postimg.cc/XYq9Ymzb/IMG-2974.jpg">
+                    <img src="https://i.postimg.cc/XYq9Ymzb/IMG-2974.jpg" class="w-full h-auto grayscale hover:grayscale-0 transition duration-700">
+                </a>
+            </div>
+            <div class="gallery-item relative rounded-xl overflow-hidden shadow-xl bg-gray-800">
+                <a href="https://i.postimg.cc/vmcRXY2K/photo-5873070239585602546-y.jpg" class="glightbox">
+                    <img src="https://i.postimg.cc/vmcRXY2K/photo-5873070239585602546-y.jpg" class="w-full h-auto grayscale hover:grayscale-0 transition duration-700">
+                </a>
+            </div>
+			</div>
+            <div class="gallery-item relative rounded-xl overflow-hidden shadow-xl bg-gray-800">
+                <a href="https://i.postimg.cc/sgWDmJBP/IMG-5171.jpg" class="glightbox">
+                    <img src="https://i.postimg.cc/sgWDmJBP/IMG-5171.jpg" class="w-full h-auto grayscale hover:grayscale-0 transition duration-700">
+                </a>
+            </div>
+            <div class="gallery-item relative rounded-xl overflow-hidden shadow-xl bg-gray-800 aspect-video flex items-center justify-center border border-gray-700">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="glightbox">
+                    <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-2"><svg class="w-6 h-6 text-black fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                    <p class="text-xs font-bold text-center">VIDEO REEL</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="py-20 bg-gray-800/50 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-16">የአገልግሎት ፓኬጆች</h2>
+
+            <h3 class="text-2xl font-bold mb-8 text-yellow-500 border-l-4 border-yellow-500 pl-4">የሰርግ ፓኬጆች (5)</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700">
+                    <h4 class="text-xl font-bold mb-2">ሰርግ 1 - 15,000 ብር</h4>
+                    <p class="text-gray-400 text-sm mb-4">1 ካሜራ | 50 ሶፍት ፎቶ | ቪዲዮ <br> <span class="text-yellow-500 font-bold">+መልስ 30,000</span></p>
+                    <a href="#contact" class="block text-center bg-gray-700 py-2 rounded-lg font-bold">ይዘዙ</a>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700">
+                    <h4 class="text-xl font-bold mb-2">ሰርግ 2 - 37,000 ብር</h4>
+                    <p class="text-gray-400 text-sm mb-4">2 ካሜራ | 100 ሶፍት | 100 ሃርድ | ቪዲዮ <br> <span class="text-yellow-500 font-bold">+መልስ 57,000</span></p>
+                    <a href="#contact" class="block text-center bg-gray-700 py-2 rounded-lg font-bold">ይዘዙ</a>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-2xl border-2 border-yellow-500 shadow-xl">
+                    <h4 class="text-xl font-bold mb-2">ሰርግ 3 - 55,000 ብር</h4>
+                    <p class="text-gray-400 text-sm mb-4">2 ካሜራ | 100 ሶፍት | ቦርድ/አልበም | ቪዲዮ <br> <span class="text-yellow-500 font-bold">+መልስ 75,000</span></p>
+                    <a href="#contact" class="block text-center bg-yellow-500 text-black py-2 rounded-lg font-bold">ይዘዙ</a>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700">
+                    <h4 class="text-xl font-bold mb-2">ሰርግ 4 - 77,000 ብር</h4>
+                    <p class="text-gray-400 text-sm mb-4">3 ካሜራ | 200 ሶፍት | 40x80 ቦርድ | አልበም | ቪዲዮ <br> <span class="text-yellow-500 font-bold">+መልስ 112,000</span></p>
+                    <a href="#contact" class="block text-center bg-gray-700 py-2 rounded-lg font-bold">ይዘዙ</a>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-2xl border border-gray-700">
+                    <h4 class="text-xl font-bold mb-2">ሰርግ 5 - 90,000 ብር</h4>
+                    <p class="text-gray-400 text-sm mb-4">4 ካሜራ | 300 ሶፍት | ቦርድ/አልበም | ቪዲዮ & ክሊፕ <br> <span class="text-yellow-500 font-bold">+መልስ 130,000</span></p>
+                    <a href="#contact" class="block text-center bg-gray-700 py-2 rounded-lg font-bold">ይዘዙ</a>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-bold mb-8 text-blue-400 border-l-4 border-blue-400 pl-4">የመስክ ፎቶ ፓኬጆች (4)</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="bg-gray-900 p-5 rounded-xl border border-gray-700 flex flex-col justify-between h-full">
+        <div>
+            <h4 class="font-bold">መስክ 1 - 14k</h4>
+            <p class="text-gray-400 text-xs my-2">100 ሶፍት ኮፒ</p>
+        </div>
+        <a href="#contact" class="block text-center border border-gray-600 py-2 rounded-lg text-xs hover:bg-blue-400 hover:text-black transition font-bold mt-4 uppercase">ይዘዙ</a>
+    </div>
+
+    <div class="bg-gray-900 p-5 rounded-xl border border-gray-700 flex flex-col justify-between h-full">
+        <div>
+            <h4 class="font-bold">መስክ 2 - 16k</h4>
+            <p class="text-gray-400 text-xs my-2">100 ሶፍት / 50 ሃርድ / ታንክስ ካርድ</p>
+        </div>
+        <a href="#contact" class="block text-center border border-gray-600 py-2 rounded-lg text-xs hover:bg-blue-400 hover:text-black transition font-bold mt-4 uppercase">ይዘዙ</a>
+    </div>
+
+    <div class="bg-gray-900 p-5 rounded-xl border border-gray-700 flex flex-col justify-between h-full">
+        <div>
+            <h4 class="font-bold">መስክ 3 - 25k</h4>
+            <p class="text-gray-400 text-xs my-2">100 ሶፍት & ሃርድ / ታንክስ / 30x45 ቦርድ</p>
+        </div>
+        <a href="#contact" class="block text-center border border-gray-600 py-2 rounded-lg text-xs hover:bg-blue-400 hover:text-black transition font-bold mt-4 uppercase">ይዘዙ</a>
+    </div>
+
+    <div class="bg-gray-900 p-5 rounded-xl border border-blue-400 flex flex-col justify-between h-full shadow-lg">
+        <div>
+            <h4 class="font-bold text-blue-400">መስክ 4 VIP - 73k</h4>
+            <p class="text-gray-400 text-xs my-2">300 ሶፍት / አልበም / 40x80 ቦርድ / ቪዲዮ</p>
+        </div>
+        <a href="#contact" class="block text-center bg-blue-500 text-white py-2 rounded-lg text-xs font-bold mt-4 uppercase">ይዘዙ</a>
+    </div>
+</div>
+    </section>
+
+    <section id="contact" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 bg-gray-800 p-10 rounded-3xl border border-gray-700 shadow-2xl">
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-yellow-500 uppercase">መረጃዎን ይላኩ</h3>
+                <form action="https://formspree.io/f/xykdnylo" method="POST" class="space-y-4">
+                    <input type="text" name="name" placeholder="ሙሉ ስም" class="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white outline-none focus:border-yellow-500" required>
+                    <input type="tel" name="phone" placeholder="ስልክ ቁጥር" class="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white outline-none focus:border-yellow-500" required>
+                    <select name="package" class="w-full p-3 rounded-xl bg-gray-900 border border-gray-700 text-white outline-none">
+                        <option>የሰርግ 1</option><option>የሰርግ 2</option><option>የሰርግ 3</option><option>የሰርግ 4</option><option>የሰርግ 5</option>
+                        <option>የመስክ 1</option><option>የመስክ 2</option><option>የመስክ 3</option><option>የመስክ 4</option>
+                    </select>
+                    <button type="submit" class="w-full bg-yellow-500 text-black font-bold py-3 rounded-xl uppercase tracking-widest">መልእክት ላክ</button>
+                </form>
+            </div>
+            <div class="flex flex-col justify-center space-y-6">
+                <h3 class="text-2xl font-bold mb-4">በፍጥነት ያግኙን</h3>
+                <a href="https://wa.me/251933340325" class="bg-green-600 p-4 rounded-2xl font-bold text-center">WhatsApp ያውሩን</a>
+                <a href="https://t.me/Adiso64" class="bg-blue-500 p-4 rounded-2xl font-bold text-center">Telegram ያውሩን</a>
+                <div class="mt-4 p-4 bg-gray-900 rounded-xl text-center border border-gray-700 text-sm">
+                    <p>ስልክ፡ +251933340325</p>
+                    <p>አድራሻ፡ ቢሾፍቱ፣ ኢትዮጵያ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="py-20 bg-gray-900 px-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+            <h3 class="text-3xl font-bold mb-6 text-yellow-500 uppercase">ስለ እኔ</h3>
+            <p class="text-gray-300 leading-relaxed mb-6">
+                እኔ አዲሱ (Zosar) እባላለሁ። በቢሾፍቱና አካባቢዋ ለበርካታ ዓመታት ጥራት ያላቸውን የሰርግና የመስክ ፎቶዎችን በማንሳት ትውስታዎችን በማስቀረት ላይ እገኛለሁ። አላማዬ የእርስዎን ልዩ ቀን ወደ ዘላቂ ጥበብ መቀየር ነው።
+            </p>
+            <div class="flex space-x-4">
+                <div class="text-center p-4 bg-gray-800 rounded-xl">
+                    <div class="text-2xl font-bold text-yellow-500">5+</div>
+                    <div class="text-xs uppercase">ዓመታት ልምድ</div>
+                </div>
+                <div class="text-center p-4 bg-gray-800 rounded-xl">
+                    <div class="text-2xl font-bold text-yellow-500">200+</div>
+                    <div class="text-xs uppercase">ደስተኛ ደንበኞች</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 p-8 rounded-3xl">
+            <h3 class="text-xl font-bold mb-6">ደንበኞች ምን ይላሉ?</h3>
+            <div class="italic text-gray-300 border-l-4 border-yellow-500 pl-4 mb-6">
+                "ዞሳር ጋር ስንነሳ በጣም ተደስተናል! ፎቶዎቹ በጣም ጥራት አላቸው፣ ደግሞም ቀጠሮ ያከብራሉ።"
+                <p class="font-bold text-yellow-500 mt-2 not-italic text-sm">— ወ/ሮ ሰላም</p>
+            </div>
+            <div class="italic text-gray-300 border-l-4 border-yellow-500 pl-4">
+                "በጣም ምርጥ የቪዲዮ ኤዲቲንግ ነው፣ ትውስታችንን በሚያምር ሁኔታ አስቀምጦልናል!"
+                <p class="font-bold text-yellow-500 mt-2 not-italic text-sm">— አቶ በረከት</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="py-10 text-center border-t border-gray-800 text-gray-500">
+    <div class="flex justify-center space-x-6 mb-4 text-xl">
+        <a href="#" class="hover:text-yellow-500 transition">TikTok</a>
+        <a href="#" class="hover:text-yellow-500 transition">Instagram</a>
+        <a href="#" class="hover:text-yellow-500 transition">Facebook</a>
+    </div>
+    <p>© 2026 Zosar Pictre. ሁሉም መብቶች የተጠበቁ ናቸው።</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ selector: '.glightbox' });
+    </script>
+</body>
+</html>
